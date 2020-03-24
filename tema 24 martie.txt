@@ -1,0 +1,20 @@
+1.Tema Incepatori:
+
+Realizati o pagina HTML in care sa scrieti lucrurile si obiceiurile care va lipsesc acum cand sunteti izolati acasa.
+
+Pagina trebuie sa contina: paragrafe (p), liste (ul/ol), imagini (img), titluri(h1, h2 etc).
+
+Imbunatatiti pagina cu CSS (puneti o culoare de fundal, colorati titlurile, faceti toate imaginile aceeasi dimensiune.
+
+Bonus: realizati un fisier JS cu un alert care sa se declanseze automat cand se intra pe pagina.
+
+
+2. Tema Avansati:
+
+Realizati o pagina HTML imbunatatita cu CSS si JS, care sa contina:
+
+1. intrebarea Unde sunteti ? (font de 35px, culoarea rosie, centrat).
+2. un input de tip text in care sa scrieti raspunsul (sa aiba dimensiunile de 300 pe 100 pixeli, colturile rotunjite)
+3. un button care o data apasat sa verifice daca raspunsul este 'acasa'. In cazul in care raspunsul este 'acasa' sa se afiseze o alerta cu mesajul 'foarte bine!'. In caz contrar sa apara o alerta cu 'atunci, mergi acasa!'
+
+Bonus: In loc de Alert folositi Sweet Alert.
