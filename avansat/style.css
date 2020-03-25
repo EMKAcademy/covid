@@ -1,0 +1,14 @@
+/* ENUNT
+Modificati documentul astfel incat:
+1. Paragrafele cu clasa "elev" sa aiba textul rosu, fontul de 50px culoarea de fundal gri si o margine de 40px
+2. Paragraful cu clasa "materii" sa aiba textul verde, fontul de 70px si o bordura neagra de 1px
+3. Butonul cu id-ul "buton1" sa aiba padding de 20px si sa fie rotunjit la colturi
+4. Butonul cu id-ul "buton2" sa aiba padding de 10px si sa aiba textul roz*/
+
+.elev {
+
+}
+
+#buton1 {
+    
+}
