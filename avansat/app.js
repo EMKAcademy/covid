@@ -1,14 +1,26 @@
-/*ENUNT
-Codul de mai jos face ca atunci cand apasam pe butonul "Apasa" sa apara un alert si sa se schimbe textul  din paragraful 1.
-
-Creati o functie noua astfel incat atunci cand apasam pe butonul "Verifica" sa apara un alert in care sa scrie 
-"Am verificat!" si sa modifice textul paragrafului 2 din prenumele vostru in "elev model".
-
-ATENTIE - nu uitati sa adaugati evenimentul onclick pentru buton in codul HTML!
-*/
-
-function apasa() {
-    alert("S-a schimbat!");
-    document.getElementById("paragraf1").innerHTML = "Elevul care a scris codul este un";
+function fun() {
+    setInterval(() => {
+    document.getElementById("patrat").style.background = "#"+((1<<24)*Math.random()|0).toString(16);
+    }, 500);
 }
+
+/* 
+Functia fun face ca patratul sa se schimbe intr-o culoare aleasa la intamplare o data la jumatate de secunda. E doar 
+pentru amuzament, nu trebuie sa o bagati in seama, doar apasati butonul "Fun" in pagina ca sa vedeti efectul :)
+
+ENUNT
+Functia schimbaRosu de mai jos schimba culoarea patratului in rosu. Creati cate o functie asemanatoare pentru fiecare 
+culoare din documentul html. Nu uitati in html sa adaugati butoanelor proprietatea onclick.
+*/ 
+
+
+function schimbaRosu() {
+    document.getElementById("patrat").style.backgroundColor = "red";
+}
+
+
+
+
+
+
 

@@ -1,14 +1,11 @@
 /* ENUNT
-Modificati documentul astfel incat:
-1. Paragrafele cu clasa "elev" sa aiba textul rosu, fontul de 50px culoarea de fundal gri si o margine de 40px
-2. Paragraful cu clasa "materii" sa aiba textul verde, fontul de 70px si o bordura neagra de 1px
-3. Butonul cu id-ul "buton1" sa aiba padding de 20px si sa fie rotunjit la colturi
-4. Butonul cu id-ul "buton2" sa aiba padding de 10px si sa aiba textul roz*/
 
-.elev {
+1. Pentru elementul cu id-ul "patrat" fixati lungime(width) de 200px, inaltime(height) de 200px, culoarea de fundal lightblue.
+Tot aici adaugati si comanda "margin: 0 auto;" pentru a centra elementul
+2. Tuturor elementelor buton adaugati margine de 5px, padding de 5px si lungime de 100px
+3. Elementului body adaugati-i proprietatea "text-align: center" 
+4. Rotunjiti butoanele la margini
 
-}
-
-#buton1 {
-    
-}
+BONUS 
+Fiecare buton sa aiba culoarea corespunzatoare textului. Butonul pe care scrie "Rosu" sa fie rosu, butonul pe care scrie 
+"Albastru" sa fie albastru etc.*/
