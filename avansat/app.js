@@ -1,21 +1,21 @@
-function fun() {
-    setInterval(() => {
-    document.getElementById("patrat").style.background = "#"+((1<<24)*Math.random()|0).toString(16);
-    }, 500);
-}
-
 /* 
-Functia fun face ca patratul sa se schimbe intr-o culoare aleasa la intamplare o data la jumatate de secunda. E doar 
-pentru amuzament, nu trebuie sa o bagati in seama, doar apasati butonul "Fun" in pagina ca sa vedeti efectul :)
-
 ENUNT
-Functia schimbaRosu de mai jos schimba culoarea patratului in rosu. Creati cate o functie asemanatoare pentru fiecare 
-culoare din documentul html. Nu uitati in html sa adaugati butoanelor proprietatea onclick.
+Trebuie sa implementam functia "culoare()" asociata butonului din html. Aceasta functie va schimba culoarea celui de-al doilea patrat in 
+culoarea scrisa in input.
+
+
+1. In functia "culoare" declaram variabila "patrat" si punem in ea elementul cu id-ul "fundal" (adica patratul a carui culoare trebuie schimbata)
+2. Sub ea, declaram variabila "culoareInput" si punem in ea valoarea scrisa in input-ul cu id-ul "culoare" (Atentie! Trebuie sa folositi .value)
+3. Egalam culoarea de background a variabilei patrat (.style.backgroundColor) cu variabila "culoareInput"
+
+Dupa ce ati urmat acesti pasi ar trebui ca atunci cand scrieti in input o culoare(in engleza!) si apasati pe buton, patratul sa aiba culoarea 
+scrisa de voi in input.
 */ 
 
 
-function schimbaRosu() {
-    document.getElementById("patrat").style.backgroundColor = "red";
+
+function culoare() {
+   
 }
 
 

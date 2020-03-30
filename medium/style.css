@@ -5,7 +5,7 @@ Tot aici adaugati si comanda "margin: 0 auto;" pentru a centra elementul
 2. Elementului cu id-ul "schimba" adaugati margine de 5px, padding de 5px, lungime de 100px si rotunjiti marginile.
 3. Elementului body adaugati-i proprietatea "text-align: center" 
 4. Elementul input sa aiba margine si padding de 10px fiecare.
-5. Elementul cu id-ul "imagine" trebuie sa aiba ca imagine de fundal o poza cu un fluture, aleasa de voi. Fixati imaginea
-in centru folosind comanda "background-position"
+5. Elementul cu id-ul "imagine" trebuie sa aiba ca imagine de fundal o poza cu un fluture, aleasa de voi. Indiciu: folositi "background-image" 
+si "url()". Vom fixa apoi imaginea in centru folosind comanda "background-position"
 */
 
