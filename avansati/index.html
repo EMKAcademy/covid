@@ -1,0 +1,39 @@
+<!-- ENUNT
+Formularul de mai jos este incomplet. Trebuie sa adaugati elemente acolo unde este indicat -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Creeaza un cont nou!</h1>
+    <form>  <!-- Acesta este tag-ul de inceput al unui formular-->
+        <fieldset>  <!-- Folosim tag-ul "fieldset" pentru a grupa diferite elemente ale formularului.-->
+            <legend>Datele tale:</legend> <!-- Folosim tag-ul "legend" pentru a avea un titlu al gruparii -->
+            <label for="nume">Nume:</label><br>
+            <input type="text" id="nume" name="nume"><br>
+            <!-- 1. Momentan, avem in formular un label si un input pentru nume. Creati elemente label si input asemanatoare pentru prenume si email.-->
+            
+            
+            <br><br>
+            <label>Sunteti de acord cu termenii si conditiile*?</label><br>
+            <input type="radio" name="termeni" >Da, sunt de acord
+            <!-- 2. Momentan, utilizatorul are ca optiune la intrebarea de mai sus doar "da, sunt de acord". Adaugati si optiunea "nu, nu sunt de acord"-->
+            
+            
+            <br><br>
+            <!-- 3. Adaugati mai jos un buton de tipul "button" cu textul "Trimite" care la click sa apeleze functia "formular()"-->
+
+
+        </fieldset>
+    </form>
+    <!-- 4. Adaugati mai jos un paragraf cu id-ul "paragraf"-->
+
+
+    <script src="app.js"></script>
+</body>
+</html>
