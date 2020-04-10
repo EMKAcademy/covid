@@ -1,0 +1,16 @@
+/* ENUNT
+
+- imaginile trebuie sa aiba width de 284 pixeli si height de 213 pixeli
+- elementul body sa aiba margine de 30 pixeli si culoarea de fundal lightgray
+- elementele div sa aiba width de 284 pixeli, padding de 10 pixeli, bordura gri de 1 pixel si
+culoarea de fundal alb 
+- adaugati elementelor div box-shadow cu umbra de 10 pixeli, efect de blur de 5 pixeli si culoarea gri
+ATENTIE! box-shadow este asemanator cu text-shadow despre care am vorbit in pdf-ul despre atributele CSS.
+Veti gasi in acel document toate informatiile de care aveti nevoie.
+- elementul cu clasa "rotesteDreapta" sa aiba proprietatea float: left si proprietatea transform care va roti cu 7 grade
+ANTENTIE! Toate informatiile despre transform le gasiti in pdf-ul cu atribute CSS.
+- elementul cu clasa "rotesteStanga" sa aiba proprietatea float:left si proprietatea transform care va roti cu -7 grade
+
+ */
+
+
