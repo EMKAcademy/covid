@@ -1,3 +1,8 @@
+/* 
+Pentru a impiedica anumite bug-uri, la event-ul de hover inlocuim wdith:600px cu transform:scale(2)
+ */
+
+
 body {
     
     background-color: #E9E9E9;
@@ -43,15 +48,6 @@ body {
     letter-spacing: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-
-/* Faceti ca la trecerea cu mouse-ul peste imagini acestea sa aiba
-width-ul de 600px
-rotatia de 0 grade
-padding de 0px;
-z-index:1;
-
-
-*/
 
 img:hover{
   width: 600px;
