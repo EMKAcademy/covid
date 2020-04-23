@@ -1,0 +1,66 @@
+/* 
+Pentru a impiedica anumite bug-uri, la event-ul de hover inlocuim wdith:600px cu transform:scale(2)
+
+
+De la Maria: 
+Stergem "width" din clasele "rotesteDreapta" si "rotesteStanga".
+Setam ca toate imaginile sa aiba width: 284px;
+Stilizati titlurile imaginilor folosind clasa "titluPoza" 
+ */
+
+
+body {
+    
+    background-color: #E9E9E9;
+    display: block;
+    width: 1300px;
+    margin: auto;
+    padding: 75px;
+  }
+  
+  .rotesteDreapta {
+    position:relative;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    float: left;
+    transform: rotate(7deg); 
+    transition: all 0.5s;
+    z-index:0;
+  }
+  
+  .rotesteStanga {
+    position:relative;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    float: left;
+    transform: rotate(-7deg);
+    transition: all 0.5s;
+    z-index:0;
+  }
+
+  #titlu {
+    display: block;
+    color: steelblue;
+    width: 700px;
+    height: 150px;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+img:hover{
+  width: 600px;
+  transform: rotate(0deg);
+  padding: 0px;
+  z-index: 1;
+}
+
+
+img {
+  width: 284px;
+}
