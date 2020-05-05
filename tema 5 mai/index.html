@@ -1,22 +1,27 @@
+<!-- 1. Adaugati inca 4 patrate cu id-urile patrat2, patrat3, patrat4, patrat5 -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Menu</title>
 </head>
-<body  id="culoare">
+<body>
     <div class="nav">
-        <button onclick="red()">Rosu</button>
-        <button onclick="green()">Verde</button>
-        <button onclick="yellow()">Galben</button>
-        <button onclick="blue()">Albastru</button>
-        <button onclick="white()">Alb</button>
-        <input type="text" id="aplica">
-        <button onclick="culo()">Aplica culoarea</button>
-        <button onclick="dele()">X</button>
+        <button class="navElement" onclick="red()">Rosu</button>
+        <button class="navElement">Verde</button>
+        <button class="navElement">Galben</button>
+        <button class="navElement">Albastru</button>
+        <button class="navElement">Alb</button>
+        <input type="text" id='colorInput'>
+        <button class="navElement">Aplica culoare</button>
+        <button id="exitButton">X</button>
     </div>
-    <script src="script.js"></script>
+    <div id="patrat"></div>
+    <script src="app.js"></script>
 </body>
 </html>
