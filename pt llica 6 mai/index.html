@@ -1,0 +1,80 @@
+<!-- !!!!Nu stergeti nimic din ceea ce este deja pe pagina!!!!
+
+1. Legati fisierul de fisierele style.css si app.js
+2. In body creati in ordinea aceasta urmatoarele elemente:
+   -un buton care sa aiba clasa 'btn-info' si care sa apeleze functia 'onOff()'. Textul de pe buton sa fie 'Culori'
+   -un div cu clasa 'colorSelect' care sa aiba in el urmatoarele doua butoane:
+            -un buton cu clasa 'btn-primary' si care sa apeleze functia 'white()'. Textul de pe buton sa fie 'Alb'
+            -un buton cu clasa 'btn-primary' si care sa apeleze functia 'dark()'. Textul de pe buton sa fie 'Negru'
+    -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Meniu</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <button class="btn-info" onclick="onOff()">Culori</button>
+    <div id="colorSelect">
+        <button class="btn-primary" onclick="white()">Alb</button>
+        <button class="btn-primary" onclick="dark()">Negru</button>
+    </div>
+    <div class="container">
+       <h1>Lectia mea de Limba Latina</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec arcu sapien. Morbi tincidunt est vel auctor eleifend.
+             Mauris hendrerit in eros non pulvinar. Proin eu odio porta, dignissim nisi et, bibendum nibh. Phasellus luctus suscipit velit. 
+             Suspendisse quis quam odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+
+            Vivamus eget viverra odio. Sed eget placerat elit. Morbi id massa eu mauris tincidunt volutpat quis eu turpis. Proin eget ipsum vestibulum, 
+            maximus mauris quis, ornare velit. Integer hendrerit sapien ex, tristique lobortis elit dignissim nec. Praesent sollicitudin pulvinar metus sed ultricies. 
+            In tincidunt scelerisque ex, id mattis justo commodo at. Suspendisse neque dolor, eleifend quis urna ac, sodales efficitur dui. Suspendisse tristique, 
+            elit sed pretium aliquet, augue sapien scelerisque risus, id facilisis dui nunc ut mi.
+            
+            Donec dictum lacus sed velit aliquet blandit. In hac habitasse platea dictumst. Quisque eleifend, dolor in rutrum hendrerit, arcu felis laoreet ex, in aliquet sem ligula et sem. 
+            Maecenas felis lacus, venenatis vel odio sed, euismod commodo dui. Duis venenatis diam tempor est pharetra, ac gravida tortor ullamcorper. Praesent ipsum justo, tempor vel maximus id, 
+            uctor fringilla dolor. Nunc auctor, quam et dapibus placerat, purus lacus commodo mi, eget bibendum arcu felis id neque. In sollicitudin, ligula et efficitur aliquam, 
+            magna dolor fringilla lorem, a commodo dui dolor sed tortor. Sed vitae nunc dui. Fusce consequat urna vel purus scelerisque, nec tincidunt neque aliquam. Proin sed eleifend nulla.
+             Aenean pellentesque, quam ut hendrerit pharetra, orci lacus venenatis quam, sit amet vestibulum arcu purus et neque. Etiam imperdiet nibh sed lacinia maximus.
+            
+            Phasellus feugiat leo id convallis luctus. Ut sed tortor eget urna molestie ornare quis vitae ipsum. Proin est ipsum, ornare a sapien ut, condimentum rutrum nisl. 
+            Donec mattis, libero et pretium dapibus, neque turpis tempus dui, dictum pretium urna libero eget sapien. Morbi mi risus, tempus non facilisis sit amet, sodales id dolor. 
+            Nulla vel metus tincidunt, imperdiet velit porta, fringilla elit. Mauris velit magna, luctus eu ultricies vitae, rutrum vel augue. Phasellus pulvinar eu nisl nec feugiat. 
+            Sed semper aliquet velit efficitur euismod. Nam nec ipsum vitae nisi semper scelerisque at id libero.
+            
+            In nec pretium nisl. Ut pretium condimentum bibendum. Suspendisse potenti. Nullam consectetur erat pellentesque lectus mollis, eget feugiat velit pulvinar. 
+            Sed pellentesque porta mauris at rhoncus. Maecenas a nibh sit amet augue tincidunt aliquet. Donec consequat, orci a rhoncus aliquet, odio nunc tincidunt mi, vitae consequat nunc risus et nisl. 
+            Praesent laoreet, nunc ut lobortis blandit, mauris mauris pretium nisi, id maximus ipsum erat et lectus. Nam tempus convallis convallis. 
+            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis at dolor et nulla hendrerit ullamcorper. In efficitur tempor nulla, mollis suscipit turpis.
+            
+            Aliquam efficitur sollicitudin neque, eu blandit elit malesuada eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed pulvinar sem ullamcorper,
+             bibendum est eu, tempus odio. Morbi vel hendrerit ipsum. Curabitur mollis nibh eu arcu facilisis, ac vulputate tortor posuere. Donec in nisl in dui congue gravida. Cras interdum, 
+             leo vel ornare interdum, neque purus faucibus odio, a vestibulum nibh leo nec dolor. Nunc nec purus suscipit, tempus felis sed, eleifend nibh. Praesent blandit tincidunt ipsum, non egestas magna vehicula quis. Nulla facilisi.
+            
+            Sed sit amet augue vitae orci congue lacinia nec eget nisl. Donec cursus nunc erat, eu dictum risus convallis et. Fusce semper eros et consectetur porta. Vivamus tincidunt ac nisi in pulvinar.
+             Maecenas vestibulum placerat aliquet. Nullam eget semper lectus. Aenean tempus mi eu tortor blandit, sed mollis libero placerat. Aenean iaculis neque a tellus laoreet gravida.
+            
+            Nam dictum non lacus a congue. Fusce cursus bibendum mauris, nec porta enim maximus ornare. Mauris blandit eros in lectus pellentesque vehicula. Morbi tristique ut eros dignissim maximus. 
+            Integer efficitur velit quis nisi faucibus, non efficitur arcu lobortis. Cras tincidunt velit eget nisi scelerisque, at mattis justo ultrices. Nulla euismod arcu porta semper iaculis. 
+            Nullam ante eros, aliquam vel neque bibendum, malesuada dictum nunc. Duis pulvinar pellentesque leo nec lobortis. Maecenas ultricies quis quam nec efficitur. 
+            Pellentesque auctor lobortis elit, sed interdum est pulvinar nec. Donec in sapien quis ipsum eleifend tristique. Duis dictum nisl et sem sodales dapibus. 
+            Pellentesque vitae lectus a urna suscipit maximus a non arcu. Vestibulum fringilla sagittis purus eget dignissim.
+            
+            uscipit. Nulla condimentum ut ex sit amet mattis. Morbi congue, velit ut pellentesque accumsan, lorem sapien tempor sem, vitae consectetur turpis magna quis eros. 
+            Ut porta quam eu suscipit semper. Fusce pellentesque venenatis nibh id viverra.
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+/* 1. Faceti ca toate butoanele sa aiba width-ul de 100 de pixeli 
+2. Creati clasa 'onOff' care sa contina textul : "display:none"
+3. Paragrafele trebuie sa aibe proprietatea de aliniere a textului: 'justify'
+4. Creati clasa 'dark' care sa aiba culoarea de fundal negru si culoarea textului alb.
+5. Creati clasa 'white' care sa aiba culoarea de fundal alb si culoarea textului negru */
+
+
+
+
+
+
+button{
+    width: 100px;
+}
+
+.onOff {
+    display:none;
+}
+
+#colorSelect {
+    float: left;
+}
+
+
+p {
+    text-align: justify;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
